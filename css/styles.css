@@ -20,12 +20,12 @@ h3 {
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 28px;
     text-shadow: #1B2838 0 2px 4px;
 }
 
 h1 {
-    font-size: 68px;
+    font-size: 38px;
     text-shadow: #1B2838 0 2px 4px;
 }
 
@@ -39,8 +39,9 @@ accent-yellow {
 
 html, body {    
     background: #00B2B2;
-    background: linear-gradient(130deg,rgba(0, 78, 78, 1) 0%, rgba(104, 0, 104, 1) 130%);
+    background: linear-gradient(0deg,rgb(0, 174, 255) 0%, rgb(111, 210, 255) 70%);
     margin: 0;
+    width: 100%;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
 }
@@ -201,8 +202,8 @@ nav img {
     position: absolute;
     justify-content: center;
     margin: 0 auto;
-    padding-left: 64px;
-    padding-right: 64px;
+    padding-left: 12px;
+    padding-right: 12px;
     width: 100%;
     top: 35%;
 }
@@ -316,7 +317,7 @@ position {
     margin-top: 64px;
     max-width: 100%;
     background-color:#1B2838;
-    border-top: 2px solid #67C1F5;
+    border-top: 2px solid #ffffff;
     box-shadow: 0 50vh 0 50vh #1B2838;
 }
 
@@ -328,7 +329,7 @@ position {
 }
 
 .footer-section h3 {
-    color: #67C1F5;
+    color: #ffffff;
 }
 
 .footer-section i {
